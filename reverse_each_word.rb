@@ -1,6 +1,7 @@
 def reverse_each_word(sentence)
   first_array = sentence.split(' ')
   sentence = ''
+  sentence.collect
   first_array.each do |word|
     word.reverse!
     if sentence == ''
