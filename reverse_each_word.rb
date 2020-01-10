@@ -9,5 +9,5 @@ def reverse_each_word(sentence)
       sentence = "#{sentence} #{word}"
     end
   end
-  puts sentence
+  return sentence
 end
